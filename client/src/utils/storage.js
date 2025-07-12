@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getAuthToken } from './auth';
 
-const API_URL = '/api/workouts';
+const API_URL = 'https://fitness-tracker-a64t.vercel.app/api/workouts';
 
 export const getWorkouts = async () => {
   try {

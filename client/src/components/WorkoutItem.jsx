@@ -36,7 +36,7 @@ function WorkoutItem({ workout, onEdit, onWorkoutChange, token }) {
     )
     if (confirmDelete) {
       try {
-        const res = await fetch(`/api/workouts/${workout._id}`, {
+        const res = await fetch(`https://fitness-tracker-a64t.vercel.app/api/workouts/${workout._id}`, {
           method: "DELETE",
           headers: { Authorization: `Bearer ${token}` },
         })

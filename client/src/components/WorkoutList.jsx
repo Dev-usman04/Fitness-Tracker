@@ -14,7 +14,7 @@ function WorkoutList({ onEditWorkout, token, onWorkoutChangeTrigger }) {
     setLoading(true)
     setError(null)
     try {
-      const res = await fetch("/api/workouts", {
+      const res = await fetch("https://fitness-tracker-a64t.vercel.app/api/workouts", {
         headers: { Authorization: `Bearer ${token}` },
       })
       const data = await res.json()

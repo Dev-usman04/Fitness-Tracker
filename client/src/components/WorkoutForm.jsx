@@ -56,8 +56,8 @@ function WorkoutForm({ editingWorkout, onClearEdit, username, token, onWorkoutSa
     try {
       const method = editingWorkout ? "PUT" : "POST"
       const url = editingWorkout
-        ? `/api/workouts/${editingWorkout._id}`
-        : "/api/workouts"
+        ? `https://fitness-tracker-a64t.vercel.app/api/workouts/${editingWorkout._id}`
+        : "https://fitness-tracker-a64t.vercel.app/api/workouts"
       const res = await fetch(url, {
         method,
         headers: {

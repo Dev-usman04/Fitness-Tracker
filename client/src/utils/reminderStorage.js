@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getAuthToken } from './auth';
 
-const API_URL = '/api/reminders';
+const API_URL = 'https://fitness-tracker-a64t.vercel.app/api/reminders';
 
 export const getReminders = async () => {
   try {

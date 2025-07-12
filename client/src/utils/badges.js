@@ -5,7 +5,7 @@ import { getAuthToken } from './auth';
 import { getWorkouts } from './storage';
 import { getCurrentStreak } from './streaks';
 
-const API_URL = '/api/badges';
+const API_URL = 'https://fitness-tracker-a64t.vercel.app/api/badges';
 
 // All available badges with their criteria
 const ALL_BADGES = [

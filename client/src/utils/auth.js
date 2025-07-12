@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || '/api/auth';
+const API_URL =  'https://fitness-tracker-a64t.vercel.app/api/auth';
 
 let authToken = localStorage.getItem('token') || null;
 let currentUser = localStorage.getItem('user') ? JSON.parse(localStorage.getItem('user')) : null;
