@@ -37,7 +37,7 @@ function Login({ onLogin }) {
       }
       
       try {
-        const res = await fetch("/api/auth/register", {
+        const res = await fetch("https://fitness-tracker-ztda.vercel.app/api/auth/register", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(formData),
