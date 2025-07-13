@@ -240,7 +240,7 @@ function App() {
           </div>
           <div className="border-t border-blue-500 mt-4 pt-4 text-center">
             <p className="text-blue-100 text-sm">
-              © 2024 DevDre Fitness Tracker. Built with ❤️ and React.
+              © 2025 DevDre Fitness Tracker. Built with React and driven by a ❤️ for fitness..
             </p>
           </div>
         </div>
